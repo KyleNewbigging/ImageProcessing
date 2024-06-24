@@ -1,6 +1,6 @@
 # Image Processing App
 
-The **Image Processing App** is a Python-based application that allows users to perform various image processing tasks. This project demonstrates the use of popular Python libraries for image manipulation and GUI development.
+The **Image Processing App** is a Python-based application that allows users to perform various image processing tasks. This project demonstrates the use of popular Python libraries for image manipulation and GUI development. Note: This project was designed for an Image Processing Course at the University of Guelph CIS4720.
 
 ## Requirements
 
