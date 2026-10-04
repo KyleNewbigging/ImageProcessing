@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox, simpledialog
 from PIL import Image, ImageTk, ImageOps
 import numpy as np
-import cv2
+#import cv2
 
 # Main GUI window
 
@@ -88,8 +88,8 @@ class ImageProcessingApp:
 
         img_gray = self.img_pil.convert("L")
         img_np = np.array(img_gray)
-        img_conv = cv2.filter2D(img_np, -1, kernel, borderType=cv2.BORDER_CONSTANT)
-        self.img_pil = Image.fromarray(img_conv)
+        #img_conv = cv2.filter2D(img_np, -1, kernel, borderType=cv2.BORDER_CONSTANT)
+        #self.img_pil = Image.fromarray(img_conv)
         self.update_image_on_canvas()
 
     def open_convolution_window(self):
